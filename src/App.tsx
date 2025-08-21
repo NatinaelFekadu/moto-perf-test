@@ -1,9 +1,17 @@
-import type { Component } from 'solid-js';
+import Hero from "./components/Hero";
+import Marquee from "./components/Marquee";
 
-const App: Component = () => {
+function App() {
   return (
-    <p class="text-3xl text-green-900 text-center py-20">Hello tailwind!</p>
+    <>
+      <Hero />
+
+      {/* Marquee overlay with gradient and blur */}
+      <div class="absolute bottom-0 w-full bg-gradient-to-t from-black/60 via-black/30 to-transparent backdrop-blur-sm py-2">
+        <Marquee />
+      </div>
+    </>
   );
-};
+}
 
 export default App;
