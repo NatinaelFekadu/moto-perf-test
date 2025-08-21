@@ -35,7 +35,7 @@ export default function Hero() {
       >
         {isVisible() && (
           <source
-            src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+            src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
             type="video/mp4"
           />
         )}
