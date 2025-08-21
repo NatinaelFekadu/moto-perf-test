@@ -31,17 +31,17 @@ export default function Marquee() {
         {[...Array(10)].map(() => (
           <>
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+              src="/images/React-icon.svg"
               alt="React"
               class="h-12 w-auto"
             />
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+              src="/images/JavaScript-logo.png"
               alt="JS"
               class="h-12 w-auto"
             />
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
+              src="/images/Node.js_logo.svg"
               alt="Node.js"
               class="h-12 w-auto"
             />
